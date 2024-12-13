@@ -5,16 +5,17 @@
         static void Main(string[] args)
         {
             #region Q1
-            //Console.WriteLine("Enter your number");
-            //int number = int.Parse(Console.ReadLine());
-            //if (number % 3 == 0 && number % 4 == 0)
-            //{
-            //    Console.WriteLine("yes");
-            //}
-            //else {
-            //    Console.WriteLine("NO");
+            Console.WriteLine("Enter your number");
+            int number = int.Parse(Console.ReadLine());
+            if (number % 3 == 0 && number % 4 == 0)
+            {
+                Console.WriteLine("yes");
+            }
+            else
+            {
+                Console.WriteLine("NO");
 
-            //}
+            }
             #endregion
             #region Q2
             //Console.WriteLine("Enter your number");
@@ -111,19 +112,34 @@
             // Console.WriteLine($"Percentage is  {Perc}");
             #endregion
             #region Q9
-            Console.WriteLine("Enter Month");
-            int Months = int.Parse(Console.ReadLine());
-            switch (Months) {
-                case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-                    Console.WriteLine("Day in Month : 31");
-                    break;
-                case 4: case 6: case 9: case 11:
-                    Console.WriteLine("Day in Month : 30");
-                    break;
+            //Console.WriteLine("Enter Month");
+            //int Months = int.Parse(Console.ReadLine());
+            //switch (Months) {
+            //    case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            //        Console.WriteLine("Day in Month : 31");
+            //        break;
+            //    case 4: case 6: case 9: case 11:
+            //        Console.WriteLine("Day in Month : 30");
+            //        break;
+            //    case 2 : // February
+            //        Console.Write("Is it a leap year? (y/n): ");
+            //        string leapYear = Console.ReadLine();
+            //        if (leapYear == "y" || leapYear == "yes")
+            //        {
+            //            Console.WriteLine("29");
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("28");
+
+            //        }
+            //        break;
+
+            //}
 
 
-            }
-
+            #endregion
+            #region Q10
 
             #endregion
         }
