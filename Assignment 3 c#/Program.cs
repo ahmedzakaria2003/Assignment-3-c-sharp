@@ -151,35 +151,59 @@
 
             #endregion
             #region Q10
-            Console.WriteLine("Enter the coordinates of the first point (x1, y1):");
-            double x1 = Convert.ToDouble(Console.ReadLine());
-            double y1 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the coordinates of the first point (x1, y1):");
+            //double x1 = Convert.ToDouble(Console.ReadLine());
+            //double y1 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Enter the coordinates of the second point (x2, y2):");
-            double x2 = Convert.ToDouble(Console.ReadLine());
-            double y2 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the coordinates of the second point (x2, y2):");
+            //double x2 = Convert.ToDouble(Console.ReadLine());
+            //double y2 = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Enter the coordinates of the third point (x3, y3):");
-            double x3 = Convert.ToDouble(Console.ReadLine());
-            double y3 = Convert.ToDouble(Console.ReadLine());
+            //Console.WriteLine("Enter the coordinates of the third point (x3, y3):");
+            //double x3 = Convert.ToDouble(Console.ReadLine());
+            //double y3 = Convert.ToDouble(Console.ReadLine());
 
 
-            if (AreCollinear(x1, y1, x2, y2, x3, y3))
+            //if (AreCollinear(x1, y1, x2, y2, x3, y3))
+            //{
+            //    Console.WriteLine("The points lie on the same straight line.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The points do not lie on the same straight line.");
+            //}
+            //static bool AreCollinear(double x1, double y1, double x2, double y2, double x3, double y3)
+            //{
+
+            //    double slope1 = (y2 - y1) * (x3 - x2);
+            //    double slope2 = (y3 - y2) * (x2 - x1);
+
+
+            //    return slope1 == slope2;
+            //}
+            #endregion
+            #region Q11
+            Console.WriteLine("Enter the time (in hours) taken to complete the task:");
+            double timeTaken = Convert.ToDouble(Console.ReadLine());
+            if (timeTaken >= 2 && timeTaken <= 3)
             {
-                Console.WriteLine("The points lie on the same straight line.");
+                Console.WriteLine("Highly Efficient"); 
+            }
+            else if (timeTaken > 3 && timeTaken <= 4)
+            {
+                Console.WriteLine("Instructed to increase speed"); 
+            }
+            else if (timeTaken > 4 && timeTaken <= 5)
+            {
+                Console.WriteLine("Provided with training to enhance speed");
+            }
+            else if (timeTaken > 5)
+            {
+                Console.WriteLine("Required to leave the company"); 
             }
             else
             {
-                Console.WriteLine("The points do not lie on the same straight line.");
-            }
-            static bool AreCollinear(double x1, double y1, double x2, double y2, double x3, double y3)
-            {
-
-                double slope1 = (y2 - y1) * (x3 - x2);
-                double slope2 = (y3 - y2) * (x2 - x1);
-
-
-                return slope1 == slope2;
+                Console.WriteLine("Invalid input, time must be greater than 0 hours"); 
             }
             #endregion
         }
