@@ -229,7 +229,7 @@
             //(b) A value 1 will be assigned to d.
             #endregion
             #region Q15
-            //(d). 6 1
+            //(d). 6.5 1
             #endregion
             #region 16
             7 7
