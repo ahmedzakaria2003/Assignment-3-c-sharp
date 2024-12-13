@@ -77,13 +77,13 @@
 
             #endregion
             #region Q6
-            // Console.WriteLine("ENTER YOUR NUMBER");
-            // int number = int.Parse(Console.ReadLine());
-            //for(int i = 1; i<=12; i++)
-            // {
+            Console.WriteLine("ENTER YOUR NUMBER");
+            int number = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= 12; i++)
+            {
 
-            //     Console.WriteLine($"{number} * {i} =   {number * i}  ");
-            // }
+                Console.WriteLine($"{number} * {i} =   {number * i}  ");
+            }
             #endregion
             #region Q7
             //Console.WriteLine("enter first int");
