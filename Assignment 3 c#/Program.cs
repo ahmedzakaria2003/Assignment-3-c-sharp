@@ -86,12 +86,12 @@
             }
             #endregion
             #region Q7
-            //Console.WriteLine("enter first int");
-            //int number01 = int.Parse(Console.ReadLine());
-            //Console.WriteLine("enter second int");
-            //int number02 = int.Parse(Console.ReadLine());
-            //double result = Math.Pow(number01, number02);
-            //Console.WriteLine($"{result}");
+            Console.WriteLine("enter first int");
+            int number01 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter second int");
+            int number02 = int.Parse(Console.ReadLine());
+            double result = Math.Pow(number01, number02);
+            Console.WriteLine($"{result}");
 
             #endregion
             #region Q8
