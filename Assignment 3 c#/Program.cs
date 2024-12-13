@@ -61,17 +61,17 @@
 
             #endregion
             #region Q5
-            //Console.WriteLine("Enter your chars");
-            //string chars = Console.ReadLine();
-            //if (chars == "a" || chars == "e" || chars == "i" || chars == "o" || chars == "u")
-            //{
-            //    Console.WriteLine("vowel");
+            Console.WriteLine("Enter your chars");
+            string chars = Console.ReadLine();
+            if (chars == "a" || chars == "e" || chars == "i" || chars == "o" || chars == "u")
+            {
+                Console.WriteLine("vowel");
 
-            //}
-            //else
-            //{
-            //    Console.WriteLine("consonant");
-            //}
+            }
+            else
+            {
+                Console.WriteLine("consonant");
+            }
 
 
 
