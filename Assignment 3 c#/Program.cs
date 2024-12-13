@@ -95,22 +95,22 @@
 
             #endregion
             #region Q8
-            // Console.WriteLine("enter mark of subject 1");
-            // int mark01 = int .Parse(Console.ReadLine());
-            // Console.WriteLine("enter mark of subject 2");
-            // int mark02 = int.Parse(Console.ReadLine());
-            // Console.WriteLine("enter mark of subject 3");
-            // int mark03 = int.Parse(Console.ReadLine());
-            // Console.WriteLine("enter mark of subject 4");
-            // int mark04 = int.Parse(Console.ReadLine());
-            // Console.WriteLine("enter mark of subject 5");
-            // int mark05 = int.Parse(Console.ReadLine());
-            //double totalMarks = mark01 + mark02 + mark03 + mark04 + mark05;
-            // Console.WriteLine($"total mark is  {totalMarks}");
-            // double avg = totalMarks / 5;
-            // Console.WriteLine($"Average is  {avg}");
-            // double Perc = (totalMarks / 500)*100 ;
-            // Console.WriteLine($"Percentage is  {Perc}");
+            Console.WriteLine("enter mark of subject 1");
+            int mark01 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter mark of subject 2");
+            int mark02 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter mark of subject 3");
+            int mark03 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter mark of subject 4");
+            int mark04 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter mark of subject 5");
+            int mark05 = int.Parse(Console.ReadLine());
+            double totalMarks = mark01 + mark02 + mark03 + mark04 + mark05;
+            Console.WriteLine($"total mark is  {totalMarks}");
+            double avg = totalMarks / 5;
+            Console.WriteLine($"Average is  {avg}");
+            double Perc = (totalMarks / 500) * 100;
+            Console.WriteLine($"Percentage is  {Perc}");
             #endregion
             #region Q9
             //Console.WriteLine("Enter Month");
