@@ -113,30 +113,40 @@
             Console.WriteLine($"Percentage is  {Perc}");
             #endregion
             #region Q9
-            //Console.WriteLine("Enter Month");
-            //int Months = int.Parse(Console.ReadLine());
-            //switch (Months) {
-            //    case 1: case 3: case 5: case 7: case 8: case 10: case 12:
-            //        Console.WriteLine("Day in Month : 31");
-            //        break;
-            //    case 4: case 6: case 9: case 11:
-            //        Console.WriteLine("Day in Month : 30");
-            //        break;
-            //    case 2 : // February
-            //        Console.Write("Is it a leap year? (y/n): ");
-            //        string leapYear = Console.ReadLine();
-            //        if (leapYear == "y" || leapYear == "yes")
-            //        {
-            //            Console.WriteLine("29");
-            //        }
-            //        else
-            //        {
-            //            Console.WriteLine("28");
+            Console.WriteLine("Enter Month");
+            int Months = int.Parse(Console.ReadLine());
+            switch (Months)
+            {
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12:
+                    Console.WriteLine("Day in Month : 31");
+                    break;
+                case 4:
+                case 6:
+                case 9:
+                case 11:
+                    Console.WriteLine("Day in Month : 30");
+                    break;
+                case 2: // February
+                    Console.Write("Is it a leap year? (y/n): ");
+                    string leapYear = Console.ReadLine();
+                    if (leapYear == "y" || leapYear == "yes")
+                    {
+                        Console.WriteLine("29");
+                    }
+                    else
+                    {
+                        Console.WriteLine("28");
 
-            //        }
-            //        break;
+                    }
+                    break;
 
-            //}
+            }
 
 
             #endregion
