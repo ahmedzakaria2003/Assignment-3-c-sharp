@@ -226,7 +226,10 @@
 
             #endregion
             #region Q14
-           (b) A value 1 will be assigned to d.
+            //(b) A value 1 will be assigned to d.
+            #endregion
+            #region Q15
+            (d). 6 1
             #endregion
         }
     }
