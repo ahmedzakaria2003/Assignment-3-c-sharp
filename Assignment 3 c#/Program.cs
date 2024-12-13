@@ -31,20 +31,20 @@
 
             #endregion
             #region Q3
-            //Console.WriteLine("enter your first number");
-            //int number01  = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter your first number");
+            int number01 = int.Parse(Console.ReadLine());
 
-            //Console.WriteLine("enter your second number");
-            //int number02 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter your second number");
+            int number02 = int.Parse(Console.ReadLine());
 
-            //Console.WriteLine("enter your third number");
-            //int number03 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter your third number");
+            int number03 = int.Parse(Console.ReadLine());
 
-            //int max = Math.Max(number01, Math.Max(number02, number03));
-            //int min = Math.Min(number01, Math.Min(number02, number03));
+            int max = Math.Max(number01, Math.Max(number02, number03));
+            int min = Math.Min(number01, Math.Min(number02, number03));
 
-            //Console.WriteLine($"Max : {max} " );
-            //Console.WriteLine($"Min : {min} ");
+            Console.WriteLine($"Max : {max} ");
+            Console.WriteLine($"Min : {min} ");
             #endregion
             #region Q4
             //Console.WriteLine("ENTER YOUR NUMBER");
