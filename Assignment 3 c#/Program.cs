@@ -215,15 +215,18 @@
             //Console.WriteLine(b);
             #endregion
             #region Q13
-            Point p1 = new Point();
-            Point p2 = new Point();
+            //Point p1 = new Point();
+            //Point p2 = new Point();
 
-            p2 = p1;
-            p1.x = 10;
+            //p2 = p1;
+            //p1.x = 10;
 
-            Console.WriteLine(p2.x);
+            //Console.WriteLine(p2.x);
 
 
+            #endregion
+            #region Q14
+           (b) A value 1 will be assigned to d.
             #endregion
         }
     }
