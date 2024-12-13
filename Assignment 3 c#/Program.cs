@@ -18,16 +18,16 @@
             }
             #endregion
             #region Q2
-            //Console.WriteLine("Enter your number");
-            //int number = int .Parse(Console.ReadLine());
-            //if (number < 0)
-            //{
-            //    Console.WriteLine("Number is negative");
-            //}
-            //else
-            //{
-            //    Console.WriteLine("number is positive");
-            //}
+            Console.WriteLine("Enter your number");
+            int number = int.Parse(Console.ReadLine());
+            if (number < 0)
+            {
+                Console.WriteLine("Number is negative");
+            }
+            else
+            {
+                Console.WriteLine("number is positive");
+            }
 
             #endregion
             #region Q3
