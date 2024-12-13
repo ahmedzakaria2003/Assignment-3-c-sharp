@@ -47,16 +47,17 @@
             Console.WriteLine($"Min : {min} ");
             #endregion
             #region Q4
-            //Console.WriteLine("ENTER YOUR NUMBER");
-            //int number = int .Parse(Console.ReadLine());
-            //if (number % 2 == 0)
-            //{
-            //    Console.WriteLine("number is even");
-            //}
-            //else {
+            Console.WriteLine("ENTER YOUR NUMBER");
+            int number = int.Parse(Console.ReadLine());
+            if (number % 2 == 0)
+            {
+                Console.WriteLine("number is even");
+            }
+            else
+            {
 
-            //    Console.WriteLine("number is odd");
-            //}
+                Console.WriteLine("number is odd");
+            }
 
             #endregion
             #region Q5
