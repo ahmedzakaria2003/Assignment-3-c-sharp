@@ -207,14 +207,22 @@
             //}
             #endregion
             #region Q12
-            int a = 0;
-            int b = a; // a= 0 , b =0
-            b = 1; // b = 1
+            //int a = 0;
+            //int b = a; // a= 0 , b =0
+            //b = 1; // b = 1
 
-            Console.WriteLine(a);
-            Console.WriteLine(b);
+            //Console.WriteLine(a);
+            //Console.WriteLine(b);
             #endregion
             #region Q13
+            Point p1 = new Point();
+            Point p2 = new Point();
+
+            p2 = p1;
+            p1.x = 10;
+
+            Console.WriteLine(p2.x);
+
 
             #endregion
         }
