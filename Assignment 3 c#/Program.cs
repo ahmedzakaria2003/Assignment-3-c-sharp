@@ -183,29 +183,40 @@
             //}
             #endregion
             #region Q11
-            Console.WriteLine("Enter the time (in hours) taken to complete the task:");
-            double timeTaken = Convert.ToDouble(Console.ReadLine());
-            if (timeTaken >= 2 && timeTaken <= 3)
-            {
-                Console.WriteLine("Highly Efficient"); 
-            }
-            else if (timeTaken > 3 && timeTaken <= 4)
-            {
-                Console.WriteLine("Instructed to increase speed"); 
-            }
-            else if (timeTaken > 4 && timeTaken <= 5)
-            {
-                Console.WriteLine("Provided with training to enhance speed");
-            }
-            else if (timeTaken > 5)
-            {
-                Console.WriteLine("Required to leave the company"); 
-            }
-            else
-            {
-                Console.WriteLine("Invalid input, time must be greater than 0 hours"); 
-            }
+            //Console.WriteLine("Enter the time (in hours) taken to complete the task:");
+            //double timeTaken = Convert.ToDouble(Console.ReadLine());
+            //if (timeTaken >= 2 && timeTaken <= 3)
+            //{
+            //    Console.WriteLine("Highly Efficient"); 
+            //}
+            //else if (timeTaken > 3 && timeTaken <= 4)
+            //{
+            //    Console.WriteLine("Instructed to increase speed"); 
+            //}
+            //else if (timeTaken > 4 && timeTaken <= 5)
+            //{
+            //    Console.WriteLine("Provided with training to enhance speed");
+            //}
+            //else if (timeTaken > 5)
+            //{
+            //    Console.WriteLine("Required to leave the company"); 
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input, time must be greater than 0 hours"); 
+            //}
+            #endregion
+            #region Q12
+            int a = 0;
+            int b = a; // a= 0 , b =0
+            b = 1; // b = 1
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+            #endregion
+            #region Q13
+
             #endregion
         }
-        }
+    }
 }
